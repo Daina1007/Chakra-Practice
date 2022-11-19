@@ -6,7 +6,7 @@ import Bottom from "./components/Bottom";
 function App() {
   return (
     <Box
-      backgroundImage="url('/images/background.jpg')"
+      backgroundImage="url('/components/images/background.jpg')"
       w={"100vw"}
       h={"100vh"}
       display={"flex"}
