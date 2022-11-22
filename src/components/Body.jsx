@@ -6,7 +6,7 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 
 
 export default function Body(){
-    return <Box backgroundColor={"green.400"} w={"70%"} h={"120px"} display={"flex"} flexWrap={"wrap"} alignContent={"space-between"}>
+    return <Box w={"60%"} h={"120px"} display={"flex"} flexWrap={"wrap"} alignContent={"space-between"}>
         <Text fontWeight={"500"} color={"white"} w={"100%"}>STORAGE</Text>
         <Box w={"100%"} display={"flex"} justifyContent={"space-between"}>
             <Menu>
@@ -14,7 +14,7 @@ export default function Body(){
                 INTERIOR DESIGN
                 </MenuButton>
             </Menu>
-            <Box w={"25%"} backgroundColor={"pink.200"} display={"flex"} alignItems={"center"} justifyContent={"space-between"} >
+            <Box w={"25%"} display={"flex"} alignItems={"center"} justifyContent={"space-between"} >
                 <Button colorScheme='teal' variant='link' color={"white"}>
                     Family
                 </Button>

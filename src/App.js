@@ -6,7 +6,10 @@ import Bottom from "./components/Bottom";
 function App() {
   return (
     <Box
-      backgroundImage="url('/components/images/background.jpg')"
+      backgroundImage="linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('practice_image.png')"
+      backgroundPosition={"center"}
+      backgroundSize={"cover"}
+      background-repeat={"no-repeat"}
       w={"100vw"}
       h={"100vh"}
       display={"flex"}

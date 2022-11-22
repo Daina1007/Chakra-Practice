@@ -6,9 +6,9 @@ import { TriangleDownIcon } from "@chakra-ui/icons";
 
 
 export default function Header(){
-    return  <Box w={"100%"} backgroundColor={"orange.200"} marginTop={"15"} display={"flex"} justifyContent={"space-evenly"}>
-        <Box as="b" backgroundColor={"green.300"} color={"white"} lineHeight={"40px"}>DAINA INSIDE</Box>
-        <Box  backgroundColor={"tomato"} display={"flex"} gap={"5"}>
+    return  <Box w={"100%"} marginTop={"15"} display={"flex"} justifyContent={"space-evenly"}>
+        <Box as="b" color={"white"} lineHeight={"40px"}>DAINA INSIDE</Box>
+        <Box display={"flex"} gap={"5"}>
             <Menu>
                 <MenuButton color={"white"} backgroundColor={"transparent"} as={Button} rightIcon={<TriangleDownIcon w={"3"}/>}>
                 Promotion
